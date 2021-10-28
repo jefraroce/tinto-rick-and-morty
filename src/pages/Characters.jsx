@@ -42,9 +42,9 @@ function Characters () {
         <h1>Characters</h1>
 
         <div>
-          {prev && (<button className="btn btn-danger me-2" onClick={handlePrev}>Anterior</button>)}
+          {prev && (<button className="btn btn-primary me-2" onClick={handlePrev}>Anterior</button>)}
 
-          {next && (<button className="btn btn-danger" onClick={handleNext}>Siguiente</button>)}
+          {next && (<button className="btn btn-primary" onClick={handleNext}>Siguiente</button>)}
         </div>
       </div>
 
