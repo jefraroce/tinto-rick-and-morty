@@ -1,4 +1,4 @@
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './App.scss';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js';
 import {
   BrowserRouter as Router,
